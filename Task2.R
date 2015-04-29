@@ -130,7 +130,7 @@ write.csv(combine.reutersdf, "task2.lda.combined.features.csv", row.names = F)
 combined.features <- read.csv("~/Documents/CS909/Exercise10/treetag/task2.lda.combined.features.csv", header=T, sep=",")
 c(nrow(combined.features),  ncol(combined.features))
 #[1] 9849  112
-lda.features <- read.csv("~/Documents/CS909/Exercise10/treetag/task2.lda.features2.csv", header=T, sep=",")
+lda.features <- read.csv("~/Documents/CS909/Exercise10/treetag/task2.lda.features.csv", header=T, sep=",")
 c(nrow(lda.features),  ncol(lda.features))
 #[1] 9849  112
 reutersdf <- read.csv("~/Documents/CS909/Exercise10/treetag/task1.reutersdf.csv", header=T, sep=",")
