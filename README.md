@@ -2,7 +2,7 @@
 
 The assignment practices text classification, clustering and topic models for Reuters-21578 data set.
 
-Note: all of the generated datasets for each task are stored in the WorkingSpace folder (at the top of the project).
+Note: all of the generated datasets for each task are stored in the folder as .csv files.
 
 Task 1: Explore the data and undertake any cleaning/pre-processing
 
